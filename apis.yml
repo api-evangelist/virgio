@@ -1,8 +1,24 @@
 aid: virgio
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/virgio.png
 name: Virgio
-description: 'Virgio is a company surfaced as a portfolio company of accel, prosus-ventures and added
-  to the API Evangelist network as a stub for enrichment. Sector: marketplaces. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: 'Virgio is an India-based direct-to-consumer sustainable fashion brand delivering
+  trend-driven, eco-conscious womens apparel built around circular fashion, recycled and natural
+  fabrics (recycled polyester, organic cotton, viscose, modal, lyocell), ethical production, and
+  zero-waste packaging. It operates as an online-first retail marketplace with a consumer web
+  storefront and mobile app. Surfaced as a portfolio company of Accel and Prosus Ventures; an
+  enrichment probe found a consumer e-commerce presence but no public developer API, developer
+  portal, or API documentation.'
 url: https://raw.githubusercontent.com/api-evangelist/virgio/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,10 +29,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Marketplaces
+- Fashion
+- Retail
+- E-commerce
+- Sustainable Fashion
+- India
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,5 +45,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/virgio-domain-security.yml
 - type: Website
-  url: http://virgio.com
+  url: https://www.virgio.com
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
